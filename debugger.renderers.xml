@@ -26,5 +26,16 @@
       <option name="NAME" value="Primitive" />
       <option name="SHOW_HEX_VALUE" value="false" />
     </Renderer>
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="com.tour.pgatour.match_play.group_stage.players_list.PlayersListLayout$PlayersListViewItem$ViewItem" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.tour.pgatour.match_play.group_stage.players_list.PlayersListLayout$PlayersListViewItem$ViewItem" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="com.tour.pgatour.match_play.group_stage.players_list.PlayersListLayout$PlayersListViewItem$ViewItem" />
+          <option name="LABEL_EXPRESSION" value="this.matchTournamentPlayer.fieldPlayer.firstName&#13;&#13;Kotlin" />
+        </Renderer>
+      </Renderer>
+    </CustomRenderers>
   </component>
 </application>
