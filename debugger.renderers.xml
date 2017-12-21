@@ -33,6 +33,15 @@
         <option name="QUALIFIED_NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
         <Renderer ID="LabelRenderer" role="label">
           <option name="QUALIFIED_NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+          <option name="LABEL_EXPRESSION" value="this.winLossRecord.getSeed()&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
           <option name="LABEL_EXPRESSION" value="this.winLossRecord.getTotal()&#13;&#13;JAVA" />
         </Renderer>
       </Renderer>
