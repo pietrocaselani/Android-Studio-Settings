@@ -3,9 +3,10 @@
     <option name="stats">
       <map>
         <entry key="'&amp;#8984; 0'" value="2" />
+        <entry key="'&amp;#8984; 1'" value="1" />
         <entry key="'&amp;#8984; 3'" value="1" />
         <entry key="'&amp;#8984; 4'" value="4" />
-        <entry key="'&amp;#8984; 5'" value="5" />
+        <entry key="'&amp;#8984; 5'" value="6" />
         <entry key="'&amp;#8984; 6'" value="7" />
         <entry key="'&amp;#8984; 9'" value="2" />
         <entry key="'F11'" value="1" />
@@ -15,8 +16,8 @@
         <entry key="'⇧⌘F4'" value="4" />
         <entry key="'⌃⇧S' or '⌃⇧D'" value="6" />
         <entry key="'⌘D'" value="3" />
-        <entry key="'⌘F2'" value="25" />
-        <entry key="'⌘F4'" value="11" />
+        <entry key="'⌘F2'" value="26" />
+        <entry key="'⌘F4'" value="13" />
         <entry key="'⌘⏎'" value="2" />
         <entry key="'⌥F7'" value="1" />
         <entry key="'⌥⌘Z'" value="3" />
