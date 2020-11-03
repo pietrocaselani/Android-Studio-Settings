@@ -81,6 +81,40 @@
       <option name="INCLUDE" value="true" />
     </filter>
   </component>
+  <component name="NodeRendererSettings">
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundNodeRenderer">
+        <option name="NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="this.winLossRecord.getSeed()&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
+        <option name="NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="com.tour.pgatour.core.data.MatchTournamentPlayer" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="this.winLossRecord.getTotal()&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
+        <option name="NAME" value="com.tour.pgatour.match_play.group_stage.players_list.PlayersListLayout$PlayersListViewItem$ViewItem" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.tour.pgatour.match_play.group_stage.players_list.PlayersListLayout$PlayersListViewItem$ViewItem" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="com.tour.pgatour.match_play.group_stage.players_list.PlayersListLayout$PlayersListViewItem$ViewItem" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="this.matchTournamentPlayer.fieldPlayer.firstName&#13;&#13;Kotlin" />
+        </Renderer>
+      </Renderer>
+    </CustomRenderers>
+  </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general />
